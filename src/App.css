@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.statusDiv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.expense{
+  display: flex;
+}
+.marginToDiv{
+  text-align: left;
+  margin-left: 110px;
+}
+.list{
+  width: 500px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 110px;
+  margin-top: 5px;
+}
+.cube{
+  width: 246px;
+  height: 246px;
+  border: 4px solid black;
+  flex-wrap: wrap;
+  display: flex;
+  
+}
+.singleBox{
+  width: 80px;
+  height: 80px;
+  border: 1px solid antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  font-size: 60px;
+}
+
+.mazeBox{
+  height: 410px;
+  width: 410px;
+  border: 2px solid black
+}
+.singleMazeBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.singleMazeRow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.singleMazeCol{
+  display: flex;
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.block{
+  background-color: black;
+  color: black;
+}
+.block:focus{
+  color: black;
+}
+.chessboxDiv{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.chessboxDiv :hover{
+  cursor: pointer;
+}
+.greenCol{
+  background-color:#4c8b4c;
+}
+.whiteCol{
+  background-color: rgb(223, 205, 182);
+}
+.Main{
+  height: 560px;
+  width: 560px;
+}
+.App{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.htmlunicode{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.htmlunicode :hover{
+  cursor: pointer;
+}
+.borderclass{
+  border: 3px solid black;
+  height: 90%;
+  width: 100%;
+}
+.htmlunicode{
+  cursor: pointer;
+}
+.colNamediv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  width: 560px;
+  margin-left: 66px;
+  height: 17px;
+}
+.list{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+.list > p{
+  margin: 0;
+}

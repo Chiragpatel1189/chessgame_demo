@@ -103,7 +103,7 @@ const App = () => {
                 if (item.i >= 0 && item.i < 8 && item.j >= 0 && item.j < 8) {
                     return [...acc, item];
                 } else return [...acc];
-            }, []),
+            }, [])
         );
     }, [possibleLocation]);
 
@@ -160,6 +160,7 @@ const App = () => {
 
     return (
         <div className="App">
+            <h1>Chess Demo</h1>
             <div className="Main">
                 {chessData.map((list, i) => {
                     return (

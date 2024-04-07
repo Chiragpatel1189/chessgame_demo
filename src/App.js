@@ -160,7 +160,7 @@ const App = () => {
 
     return (
         <div className="App">
-            <h1>CheseDemo</h1>
+            <h1>Chess Demo</h1>
             <div className="Main">
                 {chessData.map((list, i) => {
                     return (
